@@ -106,7 +106,6 @@ hr {
 
 .creation {
     display: flex;
-
 }
 
 .avatar {
@@ -118,8 +117,8 @@ hr {
 }
 
 .id {
-    margin-left: 15px;
-    margin-top: 10px;
+    margin-left: 65px;
+    margin-top: -2.5vh;
     font-family: 'Outfit', sans-serif;
     color: hsl(215, 51%, 70%);
 }
