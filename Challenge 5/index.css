@@ -1,0 +1,182 @@
+@import url('https://fonts.google.com/specimen/Red+Hat+Display:wght@500;700;900&display=swap%27');
+
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 16px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 400px;
+    height: 60vh;
+    border-radius: 20px;
+}
+
+.hero {
+    width: 400px;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.titre {
+    color: hsl(223, 47%, 23%);
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    font-weight: 900;
+}
+
+.paragraphe {
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+.abonnement {
+    display: flex;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    width: 85%;
+    height: 14%;
+    border-radius: 0.5em;
+    margin-top: 20px;
+}
+
+.music {
+    margin-left: 15px;
+    width: 40px;
+}
+
+.titreabonnement {
+    font-family: 'Red Hat Display', sans-serif; 
+    color: hsl(223, 47%, 23%);;
+    font-weight: 700;
+
+}
+
+.price {
+    margin-top: 5px;
+    color: hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.titre-price {
+    margin-left: 20px;
+}
+
+.lien {
+    margin-left: 95px;
+    background-color: none;
+    border: none;
+    color:hsl(245, 75%, 52%);
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.lien:hover {
+    cursor: pointer;
+}
+
+.acceptpay {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(245, 75%, 52%);
+    width: 38vh;
+    border-radius: 0.5em;
+    border: none;
+    height: 5vh;
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.acceptpay:hover {
+    cursor: pointer;
+    box-shadow: 0px 17px 5px -1px hsl(225, 100%, 94%);
+}
+
+.cancel {
+    margin-top: 25px;
+    color: hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.cancel:hover {
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
+}
+
+@media (max-width: 375px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        width: 320px;
+        height: 50vh;
+        border-radius: 20px;
+    }
+
+    .hero {
+        width: 320px;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+    }
+
+    .titre-price {
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    .acceptpay {
+        display: flex;
+        justify-content: center;
+        background-color: hsl(245, 75%, 52%);
+        width: 26vh;
+        border-radius: 0.5em;
+        border: none;
+        height: 5vh;
+        color: white;
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    
+    .acceptpay:hover {
+        cursor: pointer;
+        box-shadow: 0px 17px 5px -1px hsl(225, 100%, 94%);
+    }
+    
+    .lien {
+        margin-left: 35px;
+        background-color: none;
+        border: none;
+        color:hsl(245, 75%, 52%);
+        font-weight: bold;
+        text-decoration: underline;
+        font-family: 'Red Hat Display', sans-serif;
+}
+
+}
