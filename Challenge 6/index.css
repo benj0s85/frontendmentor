@@ -25,7 +25,7 @@ body {
 }
 
 .left {
-    background-color: hsl(244, 38%, 16%);
+    background-color: hsl(244, 38%, 16%); 
     width: 60vh;
     border-bottom-left-radius: 0.5em;
     border-top-left-radius: 0.5em;
