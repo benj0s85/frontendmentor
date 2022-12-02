@@ -1,0 +1,40 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
+.container { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card1 {
+    width: 25vh;
+    height: 40vh;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.card2 {
+    width: 25vh;
+    height: 40vh;
+    background-color: hsl(184, 100%, 22%);
+}
+.card3 {
+    width: 25vh;
+    height: 40vh;
+    background-color: hsl(179, 100%, 13%);
+}
+
+.logo {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.titre {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.texte {
+    margin-top: 30px;
+    margin-left: 30px;
+}
