@@ -19,6 +19,9 @@ body {
     border-top-right-radius: 0.5em;
     width: 60vh;
     height: 100%;
+    mix-blend-mode: luminosity;
+    filter: brightness(0.8);
+    filter: opacity(0.4);
 }
 
 .left {
