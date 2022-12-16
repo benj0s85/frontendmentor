@@ -1,0 +1,358 @@
+@import url('https://fonts.google.com/specimen/League+Spartan:wght@400,500;700&display=swap%27');
+
+body {
+    font-family: 'League Spartan', sans-serif
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 7%;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30vh;
+}
+
+.titre {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.left .text {
+    color: hsl(303, 10%, 53%);
+    font-weight: 500;
+    line-height: 2.5vh;
+    text-align: start;
+}
+
+/* Notes 1 */
+
+.notes1 {
+    background-color: rgba(201, 198, 198, 0.692);
+    width: 55vh;
+    border-radius: 0.5em;
+}
+
+.notes1 .text {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    margin-left: 3vh;
+}
+
+.star {
+    width: 3.5vh;
+}
+
+/* Notes 2 */
+
+.notes2 {
+    background-color: rgba(201, 198, 198, 0.692);
+    width: 55vh;
+    border-radius: 0.5em;
+    margin-top: 1.5vh;
+    margin-left: 5.5vh;
+}
+
+.notes2 .text {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    margin-left: 3vh;
+}
+
+.star {
+    width: 3.5vh;
+}
+
+/* Notes 3*/
+
+.notes3 {
+    background-color: rgba(201, 198, 198, 0.692);
+    width: 55vh;
+    border-radius: 0.5em;
+    margin-top: 1.5vh;
+    margin-left: 10.5vh;
+}
+
+.notes3 .text {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    margin-left: 3vh;
+}
+
+.star {
+    width: 3.5vh;
+}
+
+
+.etoile {
+    display: flex;
+    align-items: center;
+    margin-left: 4vh;
+}
+
+.bottom {
+    display: flex;
+    margin-top: 5vh;
+}
+
+/* Card 1 */
+
+.card1 {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 0.5em;
+    width: 43vh;
+    height: 28vh;
+}
+
+.profil {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.5vh;
+    margin-left: 3vh;
+}
+
+.image {
+    border-radius: 50%;
+    width: 65px;
+}
+
+.name {
+    color: hsl(0, 0%, 100%);
+    margin-left: 2.5vh;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.name span {
+    color: hsl(333, 80%, 67%);
+    font-weight: 500;
+}
+
+.bottom .text {
+    color: hsl(0, 0%, 100%);
+    text-align: start;
+    font-weight: 500;
+    line-height: 3vh;
+    margin-left: 3vh;
+}
+
+/* Card 2*/
+
+.card2 {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 0.5em;
+    width: 43vh;
+    height: 28vh;
+    margin-left: 5vh;
+    margin-top: 3vh;
+}
+
+.name span {
+    color: hsl(333, 80%, 67%);
+    font-weight: 500;
+}
+
+/* Card 3*/
+.card3 {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 0.5em;
+    width: 43vh;
+    height: 28vh;
+    margin-left: 5vh;
+    margin-top: 6vh;
+}
+
+@media (max-width: 375px) {
+    .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 7%;
+    }
+
+    .top {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .titre {
+        text-align: center;
+        color: hsl(300, 43%, 22%);
+        font-weight: 700;
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       margin-right: 0;
+    }
+
+    .left .text {
+        color: hsl(303, 10%, 53%);
+        font-weight: 400;
+        line-height: 2vh;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Notes 1 */
+
+.notes1 {
+    background-color: rgba(201, 198, 198, 0.692);
+    width: 25vh;
+    border-radius: 0.5em;
+}
+
+.notes1 .text {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    margin-left: 3vh;
+}
+
+.star {
+    width: 3.5vh;
+}
+
+/* Notes 2 */
+
+.notes2 {
+    background-color: rgba(201, 198, 198, 0.692);
+    width: 25vh;
+    border-radius: 0.5em;
+    margin-top: 1.5vh;
+    margin-left: 0;
+}
+
+.notes2 .text {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    margin-left: 3vh;
+}
+
+.star {
+    width: 3.5vh;
+}
+
+/* Notes 3*/
+
+.notes3 {
+    background-color: rgba(201, 198, 198, 0.692);
+    width: 25vh;
+    border-radius: 0.5em;
+    margin-top: 1.5vh;
+    margin-left: 0;
+}
+
+.notes3 .text {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    margin-left: 3vh;
+}
+
+.star {
+    width: 3.5vh;
+}
+
+
+.etoile {
+    display: flex;
+    align-items: center;
+    margin-left: 4vh;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+/* Card 1 */
+
+.card1 {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 0.5em;
+    width: 25vh;
+    height: 20vh;
+}
+
+.profil {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.5vh;
+    margin-left: 3vh;
+}
+
+.image {
+    border-radius: 50%;
+    width: 65px;
+}
+
+.name {
+    color: hsl(0, 0%, 100%);
+    margin-left: 2.5vh;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.name span {
+    color: hsl(333, 80%, 67%);
+    font-weight: 500;
+}
+
+.bottom .text {
+    color: hsl(0, 0%, 100%);
+    text-align: start;
+    margin-left: 3vh;
+    font-size: 0.7em;
+    line-height: 1.5vh;
+}
+
+/* Card 2*/
+
+.card2 {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 0.5em;
+    width: 25vh;
+    height: 20vh;
+    margin-left: 0;
+    margin-top: 2vh;
+}
+
+.name span {
+    color: hsl(333, 80%, 67%);
+    font-weight: 500;
+}
+
+/* Card 3*/
+.card3 {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 0.5em;
+    width: 25vh;
+    height: 20vh;
+    margin-left: 0;
+    margin-top: 2vh;
+}
+
+}
