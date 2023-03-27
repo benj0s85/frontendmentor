@@ -1,0 +1,248 @@
+@import url('https://fonts.google.com/specimen/Hanken+Grotesk:wght500,700,800&display=swap%27');
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color: hsl(221, 100%, 96%);
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 2em;
+    height: 45vh;
+    width: 60%;
+}
+
+.title {
+    color: hsl(241, 100%, 89%);
+    font-size: 1.5em;
+}
+
+.score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    border-radius: 5rem;
+    height: 10rem;
+    width: 10rem;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.score p {
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.score span {
+    color: hsl(241, 100%, 89%);
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text h2 {
+    color: white;
+    margin-bottom: 0;
+}
+
+.text p {
+    color: hsl(241, 100%, 89%);
+    width: 70%;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    background-color: white;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+    height: 45vh;
+    width: 60%;
+}
+
+.right h3 {
+    color: hsl(224, 30%, 27%);
+    text-align: start;
+}
+
+.right h4 {
+    margin-left: 10px;
+}
+
+.reaction {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 80%;
+    background-color: hsl(0, 100%, 67%, 0.123);
+    border-radius: 0.5em;
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 4vh;
+}
+
+.reaction h4 {
+    color: hsl(0, 100%, 67%);
+}
+
+.reaction p {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.text_reaction {
+    display: flex;
+    align-items: center;
+}
+
+.title_reaction {
+    display: flex;
+    align-items: center;
+}
+
+.val {
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+    margin-right: 5px ;
+}
+
+.pourcent {
+    color: grey;
+    font-weight: 700;
+}
+
+.memory {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    background-color: hsl(39, 100%, 56%, 0.123);
+    border-radius: 0.5em;
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 4vh;
+}
+
+.memory h4 {
+    color: hsl(39, 100%, 56%);
+}
+
+.memory p {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.verbal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background-color: hsl(166, 100%, 37%, 0.123);
+    border-radius: 0.5em;
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 4vh;
+}
+
+.verbal h4 {
+    color: hsl(166, 100%, 37%);
+}
+
+.verbal p {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.visual {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    background-color: hsla(234, 85%, 45%, 0.123);
+    border-radius: 0.5em;
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 4vh;
+}
+
+.visual h4 {
+    color: hsl(234, 85%, 45%);
+}
+
+.visual p {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.button {
+    width: 85%;
+    border: none;
+    border-radius: 5rem;
+    height: 5vh;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: static;
+        transform: translate(0);
+    }
+
+    .left {
+        width: 100%;
+        border-radius: 0;
+        border-bottom-left-radius: 2em;
+        border-bottom-right-radius: 2em;
+    }
+
+    .score {
+        height: 7rem;
+        width: 7rem;
+        border-radius: 10rem;
+    }
+
+    .right {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        padding-bottom: 30px;
+    }
+}
