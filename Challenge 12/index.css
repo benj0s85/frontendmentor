@@ -1,0 +1,136 @@
+@import url('https://fonts.google.com/specimen/Karla:wght400,700,800&display=swap%27');
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bloc1 {
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+    background-color: white;
+    width: 70vh;
+    padding: 30px;
+}
+
+.sous_title_bloc1 {
+    color: hsl(71, 73%, 54%);
+}
+
+.text_bloc1 {
+    line-height: 30px;
+    color: hsl(200, 1%, 59%);
+}
+
+.title_bloc1 {
+    color: hsl(179, 62%, 43%);
+}
+
+.twoblocs {
+    display: flex;
+    flex-direction: row;
+}
+
+.bloc2 {
+    background-color: hsl(179, 62%, 43%);
+    width: 50%;
+    padding: 30px;
+    border-bottom-left-radius: 0.5em;
+}
+
+.bloc2 h3 {
+    color: white;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+.price h1 {
+    margin-right: 10px;
+    color: white;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.price span {
+    color: hsl(180, 1%, 77%);
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 21px;
+}
+
+.bloc2 p {
+    margin-top: 0;
+    color: white;
+}
+
+.bloc2 input {
+    width: 85%;
+    height: 5vh;
+    border: none;
+    border-radius: 0.5em;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.bloc3 {
+    width: 50%;
+    padding: 30px;
+    background-color: hsl(179, 76%, 55%);
+    border-bottom-right-radius: 0.5em;
+}
+
+.bloc3 h3 {
+    color: white;
+}
+
+.bloc3 p {
+    color: white;
+    line-height: 20px;
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        position: absolute;
+        left: 0;
+        top: 0;
+        transform: translate(25px);
+    }
+
+    .twoblocs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bloc1 {
+        width: 70%;
+    }
+
+    .bloc2 {
+        width: 70%;
+        border-bottom-left-radius: 0;
+    }
+
+    .bloc3 {
+        width: 70%;
+    }
+
+    .bloc2 input {
+        width: 100%;
+    }
+}
