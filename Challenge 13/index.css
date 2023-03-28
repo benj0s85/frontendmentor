@@ -1,0 +1,149 @@
+@import url('https://fonts.google.com/specimen/Poppins:wght200,400,600&display=swap%27');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 50px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_pages {
+    text-align: center;
+}
+
+.top_pages h1:first-of-type {
+    color: hsl(229, 6%, 66%);
+    font-weight: lighter;
+}
+
+.top_pages h1 {
+    color: hsl(234, 12%, 34%);
+}
+
+.top_pages p {
+    color: hsl(229, 6%, 66%);
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.cards p {
+    color: hsl(229, 6%, 66%);
+}
+
+.column_card {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.first_card {
+    border-top: 4px solid hsl(180, 62%, 55%);
+    background-color: white;
+    border-radius: 0.5em;
+    width: 40vh;
+    padding: 30px;
+    box-shadow: 0px 5px 30px grey;
+    color: hsl(234, 12%, 34%);
+    margin-right: 30px;
+}
+
+.icon {
+    margin-left: 80%;
+    margin-top: 40px;
+}
+
+.second_card {
+    border-top: 4px solid hsl(0, 78%, 62%);
+    background-color: white;
+    border-radius: 0.5em;
+    width: 40vh;
+    padding: 30px;
+    box-shadow: 0px 5px 30px grey;
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 30px;
+}
+
+.third_card {
+    border-top: 4px solid hsl(34, 97%, 64%);
+    background-color: white;
+    border-radius: 0.5em;
+    width: 40vh;
+    padding: 30px;
+    box-shadow: 0px 5px 30px grey;
+    color: hsl(234, 12%, 34%);
+}
+
+.four_card {
+    border-top: 4px solid hsl(212, 86%, 64%);
+    background-color: white;
+    border-radius: 0.5em;
+    width: 40vh;
+    padding: 30px;
+    box-shadow: 0px 5px 30px grey;
+    color: hsl(234, 12%, 34%);
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        padding: 0;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top_pages h1 {
+        font-size: 24px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first_card {
+        margin-right: 0;
+        margin-bottom: 20px;
+        width: 35vh;
+    }
+
+    .column_card {
+        margin-right: 0;
+    }
+
+    .second_card {
+        margin-bottom: 20px;
+        width: 35vh;
+    }
+
+    .third_card {
+        margin-bottom: 20px;
+        width: 35vh;
+    }
+
+    .four_card {
+        margin-bottom: 20px;
+        width: 35vh;
+    }
+}
