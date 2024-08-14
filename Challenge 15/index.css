@@ -21,7 +21,7 @@ p {
     padding: 15px;
     width: 340px;
     transform: translate(-50%, -50%);
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 20px;
     box-shadow: 15px black;
     background-color: white;
